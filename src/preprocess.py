@@ -5,9 +5,9 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import string
 
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('punkt_tab')
+# nltk.download('punkt')
+# nltk.download('stopwords')
+# nltk.download('punkt_tab')
 
 STOPWORDS = set(stopwords.words('english'))
 
