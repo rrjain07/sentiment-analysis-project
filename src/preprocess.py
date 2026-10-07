@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 import nltk
-ltk.download('stopwords')
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import string
